@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClick (View view)
     {
-        Toast toast = Toast.makeText(getApplicationContext(), "Hello Epam!", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(getApplicationContext(), "Hello EPAM!", Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, 0, 0);
         LinearLayout toastContainer =(LinearLayout) toast.getView();
         ImageView epamView = new ImageView(getApplicationContext());
